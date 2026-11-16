@@ -1,0 +1,260 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landslide Safety Quiz | SlopePoint</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="quiz.css">
+    <link rel="icon" type="image/jpeg" href="https://i.pinimg.com/736x/f9/9e/da/f99eda20acf7c5a0008ba07cc0dadbc3.jpg">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <a class="navbar-brand" href="index.html">
+            <img src="https://i.pinimg.com/736x/f9/9e/da/f99eda20acf7c5a0008ba07cc0dadbc3.jpg" alt="SlopePoint Logo" class="logo me-2">
+            SlopePoint
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="risk-reduction.html">Risk Reduction</a></li>
+                <li class="nav-item"><a class="nav-link" href="safety-tips.html">Safety Tips</a></li>
+                <li class="nav-item"><a class="nav-link active" href="quiz.html">Quiz</a></li>
+                <li class="nav-item"><a class="nav-link" href="aboutus.html">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+                <li class="nav-item"><a class="nav-link" href="contactus.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main id="quizContent" class="quiz-page">
+
+        <section class="quiz-heading">
+            <span class="section-tag">TEST YOUR KNOWLEDGE</span>
+            <h1>Landslide Safety <span>Quiz</span></h1>
+            <p>
+                How much do you know about landslides and how to prepare for them?
+                Answer these questions to test what you've learned.
+            </p>
+        </section>
+
+        <section class="quiz-container">
+
+            <div class="quiz-top">
+                <div>
+                    <span class="quiz-label">SLOPEPOINT KNOWLEDGE CHECK</span>
+                    <h2>Are You Prepared?</h2>
+                </div>
+                <div class="question-count">
+                    10 QUESTIONS
+                </div>
+            </div>
+
+            <div class="quiz-start-container">
+                <button type="button" id="startBtn" class="quiz-start-btn">
+                    Start Quiz
+                </button>
+                <p>Click the button to begin answering the 10 questions.</p>
+            </div>
+
+            <form id="quizForm">
+
+                <div class="question-card">
+                    <span class="question-number">QUESTION 01</span>
+                    <h3>Which of these could be an early warning sign of a landslide?</h3>
+                    <label class="answer-option"><input type="radio" name="q1" value="a"> Cracks appearing in the ground</label>
+                    <label class="answer-option"><input type="radio" name="q1" value="b"> Clear skies</label>
+                    <label class="answer-option"><input type="radio" name="q1" value="c"> Dry roads</label>
+                </div>
+
+                <div class="question-card">
+                    <span class="question-number">QUESTION 02</span>
+                    <h3>What should people living near a landslide-risk area do during periods of heavy rain?</h3>
+                    <label class="answer-option"><input type="radio" name="q2" value="a"> Ignore the weather</label>
+                    <label class="answer-option"><input type="radio" name="q2" value="b"> Check official weather warnings regularly</label>
+                    <label class="answer-option"><input type="radio" name="q2" value="c"> Wait until water enters their homes</label>
+                </div>
+
+                <div class="question-card">
+                    <span class="question-number">QUESTION 03</span>
+                    <h3>Why should families make an emergency plan before a landslide happens?</h3>
+                    <label class="answer-option"><input type="radio" name="q3" value="a"> To decide who will buy supplies</label>
+                    <label class="answer-option"><input type="radio" name="q3" value="b"> To avoid listening to safety warnings</label>
+                    <label class="answer-option"><input type="radio" name="q3" value="c"> To know where to go and how to contact each other</label>
+                </div>
+
+                <div class="question-card">
+                    <span class="question-number">QUESTION 04</span>
+                    <h3>What is important to know before a landslide occurs?</h3>
+                    <label class="answer-option"><input type="radio" name="q4" value="a"> The nearest shopping centre</label>
+                    <label class="answer-option"><input type="radio" name="q4" value="b"> A safe evacuation route and meeting place</label>
+                    <label class="answer-option"><input type="radio" name="q4" value="c"> The shortest way to the hillside</label>
+                </div>
+
+                <div class="question-card">
+                    <span class="question-number">QUESTION 05</span>
+                    <h3>If a landslide is approaching your area, what should you do?</h3>
+                    <label class="answer-option"><input type="radio" name="q5" value="a"> Move quickly away from its path if it is safe to do so</label>
+                    <label class="answer-option"><input type="radio" name="q5" value="b"> Stand nearby to watch</label>
+                    <label class="answer-option"><input type="radio" name="q5" value="c"> Try to cross the moving soil</label>
+                </div>
+
+                <div class="question-card">
+                    <span class="question-number">QUESTION 06</span>
+                    <h3>Which place should you avoid when choosing a safe location in a landslide-risk area?</h3>
+                    <label class="answer-option"><input type="radio" name="q6" value="a"> An area recommended by local authorities</label>
+                    <label class="answer-option"><input type="radio" name="q6" value="b"> A designated evacuation centre</label>
+                    <label class="answer-option"><input type="radio" name="q6" value="c"> The area directly below an unstable slope</label>
+                </div>
+
+                <div class="question-card">
+                    <span class="question-number">QUESTION 07</span>
+                    <h3>What should you prepare in an emergency bag?</h3>
+                    <label class="answer-option"><input type="radio" name="q7" value="a"> Water, a flashlight, and a first-aid kit</label>
+                    <label class="answer-option"><input type="radio" name="q7" value="b"> Decorations and toys only</label>
+                    <label class="answer-option"><input type="radio" name="q7" value="c"> Heavy household furniture</label>
+                </div>
+
+                <div class="question-card">
+                    <span class="question-number">QUESTION 08</span>
+                    <h3>What should you do if you notice cracks in the ground or trees leaning suddenly?</h3>
+                    <label class="answer-option"><input type="radio" name="q8" value="a"> Ignore the changes</label>
+                    <label class="answer-option"><input type="radio" name="q8" value="b"> Move to a safe place and inform local authorities</label>
+                    <label class="answer-option"><input type="radio" name="q8" value="c"> Dig around the cracks</label>
+                </div>
+
+                <div class="question-card">
+                    <span class="question-number">QUESTION 09</span>
+                    <h3>Is it safe to return home immediately after a landslide or heavy rainfall?</h3>
+                    <label class="answer-option"><input type="radio" name="q9" value="a"> Yes, as soon as the rain stops</label>
+                    <label class="answer-option"><input type="radio" name="q9" value="b"> Yes, if the area looks normal</label>
+                    <label class="answer-option"><input type="radio" name="q9" value="c"> No, wait until authorities confirm it is safe</label>
+                </div>
+
+                <div class="question-card">
+                    <span class="question-number">QUESTION 10</span>
+                    <h3>If local authorities tell your community to evacuate, what should you do?</h3>
+                    <label class="answer-option"><input type="radio" name="q10" value="a"> Leave early using the recommended safe route</label>
+                    <label class="answer-option"><input type="radio" name="q10" value="b"> Wait until the landslide starts</label>
+                    <label class="answer-option"><input type="radio" name="q10" value="c"> Stay home and ignore the warning</label>
+                </div>
+
+                <div class="quiz-buttons">
+                    <button type="button" id="checkBtn" class="quiz-check-btn" disabled>
+                        Check Score
+                    </button>
+                </div>
+
+            </form>
+
+            <div id="result" class="quiz-result"></div>
+
+        </section>
+
+    </main>
+
+    <footer class="mt-5 py-4">
+        <div class="container">
+            <div class="row g-4">
+
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="fw-bold">SlopePoint</h5>
+                    <p class="footer-description">
+                        Learn about landslide risks and ways to prepare for a safer future.
+                    </p>
+                </div>
+
+                <div class="col-lg-2 col-md-6">
+                    <h6 class="fw-bold">Quick Links</h6>
+                    <a href="index.html" class="footer-link d-block">Homepage</a>
+                    <a href="risk-reduction.html" class="footer-link d-block">Risk Reduction</a>
+                    <a href="safety-tips.html" class="footer-link d-block">Safety Tips</a>
+                    <a href="quiz.html" class="footer-link d-block">Quiz</a>
+                    <a href="aboutus.html" class="footer-link d-block">About Us</a>
+                </div>
+
+                <div class="col-lg-2 col-md-6">
+                    <h6 class="fw-bold">Learn More</h6>
+                    <a href="faq.html" class="footer-link d-block">FAQ</a>
+                    <a href="references.html" class="footer-link d-block">References</a>
+                    <a href="contactus.html" class="footer-link d-block">Contact Us</a>
+                    <a href="privacy-policy.html" class="footer-link d-block">Privacy Policy</a>
+                </div>
+
+                <div class="col-lg-5 col-md-6">
+                    <h6 class="fw-bold">Join SlopePoint</h6>
+                    <p class="footer-description">
+                        Sign up to check your score and see your quiz results.
+                    </p>
+
+                    <button type="button" class="btn sign-up">
+                Sign Up
+                </button>
+                </div>
+
+            </div>
+
+            <hr class="footer-line">
+
+            <div class="footer-bottom">
+                <small>Made by Group 5</small>
+                <small> © 2026 SlopePoint | All Rights Reserved.</small>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content register-modal">
+
+                <div class="modal-header">
+                    <div>
+                        <span class="register-tag">SLOPEPOINT ACCOUNT</span>
+                        <h5 class="modal-title" id="registerModalLabel">Create an Account</h5>
+                    </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body">
+                    <p class="register-description">
+                        Sign up to check your score and see your quiz results.
+                    </p>
+
+                    <form id="registerForm">
+                        <label for="studentName" class="form-label">Full Name</label>
+                        <input type="text" class="form-control register-input mb-3" id="studentName" placeholder="Enter your name" required>
+
+                        <label for="studentEmail" class="form-label">Email Address</label>
+                        <input type="email" class="form-control register-input mb-3" id="studentEmail" placeholder="Enter your email" required>
+
+                        <label for="studentPassword" class="form-label">Password</label>
+                        <input type="password" class="form-control register-input mb-3" id="studentPassword" placeholder="Create a password" required>
+
+                        <label for="confirmPassword" class="form-label">Confirm Password</label>
+                        <input type="password" class="form-control register-input mb-3" id="confirmPassword" placeholder="Confirm your password" required>
+
+                        <p id="registerMessage" class="register-message"></p>
+
+                        <button type="submit" class="btn register-submit w-100">Create Account</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>

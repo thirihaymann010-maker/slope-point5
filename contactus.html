@@ -1,0 +1,242 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | SlopePoint</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/jpeg" href="https://i.pinimg.com/736x/f9/9e/da/f99eda20acf7c5a0008ba07cc0dadbc3.jpg">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="https://i.pinimg.com/736x/f9/9e/da/f99eda20acf7c5a0008ba07cc0dadbc3.jpg" alt="SlopePoint Logo" class="logo me-2">
+                SlopePoint
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="risk-reduction.html">Risk Reduction</a></li>
+                    <li class="nav-item"><a class="nav-link" href="safety-tips.html">Safety Tips</a></li>
+                    <li class="nav-item"><a class="nav-link" href="quiz.html">Quiz</a></li>
+                    <li class="nav-item"><a class="nav-link" href="aboutus.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contactus.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="contact-page">
+
+        <section class="contact-hero">
+            <div class="contact-hero-content">
+                <span class="contact-label">GET IN TOUCH</span>
+                <h1>Let's start a <span>conversation.</span></h1>
+                <p>
+                    Have a question or want to share your thoughts?
+                    We would love to hear from you. Get in touch with
+                    the SlopePoint team using the details below or the form.
+                </p>
+                <div class="contact-hero-line"></div>
+                <span class="contact-hero-note">Your voice can make a difference.</span>
+            </div>
+
+            <div class="contact-hero-image">
+                <img src="https://img.magnific.com/free-photo/landscape-volcano-batur-bali-indonesia_72229-1017.jpg?semt=ais_hybrid&w=740&q=80" alt="Mountain landscape">
+                <div class="contact-image-caption">
+                    <span>01 / SLOPEPOINT</span>
+                    <p>Building awareness. Supporting safer communities.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-main-section">
+
+            <div class="contact-info">
+                <span class="contact-label">CONTACT INFORMATION</span>
+                <h2>Get in touch with us.</h2>
+                <p class="contact-info-description">
+                    Have questions about SlopePoint? You can reach us
+                    through our contact details below. We welcome your
+                    questions and feedback about our website.
+                </p>
+
+                <div class="contact-detail-list">
+
+                    <div class="contact-detail">
+                        <div class="contact-detail-icon">
+                            <i class="bi bi-geo-alt" aria-hidden="true"></i>
+                        </div>
+                        <div>
+                            <span>OUR LOCATION</span>
+                            <h3>Yangon, Myanmar</h3>
+                            <p>Kamayut Township, Yangon, Myanmar</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-detail">
+                        <div class="contact-detail-icon">
+                            <i class="bi bi-telephone" aria-hidden="true"></i>
+                        </div>
+                        <div>
+                            <span>PHONE NUMBER</span>
+                            <h3>+95 887 777 491</h3>
+                            <p>Contact us by phone</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-detail">
+                        <div class="contact-detail-icon">
+                            <i class="bi bi-envelope" aria-hidden="true"></i>
+                        </div>
+                        <div>
+                            <span>EMAIL ADDRESS</span>
+                            <h3>slopepoint.team@gmail.com</h3>
+                            <p>Send us your questions and feedback</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="contact-form-wrapper">
+                <div class="contact-form-heading">
+                    <span class="contact-label">SEND A MESSAGE</span>
+                    <h2>We'd love to hear from you.</h2>
+                    <p>Fill in the details below and leave us a message.</p>
+                </div>
+
+                <form id="contactForm" class="contact-form">
+
+                    <div class="contact-form-row">
+                        <div class="contact-field">
+                            <label for="contactFirstName">First name *</label>
+                            <input type="text" id="contactFirstName" placeholder="Your first name" required>
+                        </div>
+
+                        <div class="contact-field">
+                            <label for="contactLastName">Last name *</label>
+                            <input type="text" id="contactLastName" placeholder="Your last name" required>
+                        </div>
+                    </div>
+
+                    <div class="contact-field">
+                        <label for="contactEmail">Email address *</label>
+                        <input type="email" id="contactEmail" placeholder="Enter your email" required>
+                    </div>
+
+                    <div class="contact-field">
+    <label for="subjectSelect">Subject *</label>
+    <select id="subjectSelect" required>
+        <option value="" disabled selected>Select a subject</option>
+        <option value="General Question">General Question</option>
+        <option value="Website Feedback">Website Feedback</option>
+        <option value="Landslide Awareness">Landslide Awareness</option>
+        <option value="Safety Information">Safety Information</option>
+        <option value="Suggestions">Suggestions</option>
+        <option value="Other">Other</option>
+    </select>
+</div>
+
+<div class="contact-field">
+    <input type="text" id="subject" name="subject" placeholder="Selected subject will appear here" readonly required>
+</div>
+
+                    <div class="contact-field">
+                        <label for="contactMessage">Message *</label>
+                        <textarea id="contactMessage" rows="5" placeholder="Write your message here..." required></textarea>
+                    </div>
+
+                    <div class="contact-form-bottom">
+                        <button type="submit" class="contact-submit">
+                            Send Message <i class="bi bi-arrow-up-right" aria-hidden="true"></i>
+                        </button>
+                        <span>All fields marked * are required.</span>
+                    </div>
+
+                    <p id="contactFeedback" class="contact-feedback" aria-live="polite"></p>
+
+                </form>
+            </div>
+
+        </section>
+
+        <section class="contact-bottom">
+            <span class="contact-label">THANK YOU FOR CONNECTING WITH US</span>
+            <h2>Your voice matters in building safer communities.</h2>
+            <p>
+                Thank you for your message! Your response has been recorded successfully.
+            </p>
+            <div class="contact-ending-line"></div>
+            <span class="contact-ending-text">SLOPEPOINT · AWARENESS FOR A SAFER FUTURE</span>
+        </section>
+
+    </main>
+
+    <footer class="mt-5 py-4">
+        <div class="container">
+            <div class="row g-4">
+
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="fw-bold">SlopePoint</h5>
+                    <p class="footer-description">
+                        Learn about landslide risks and ways to prepare for a safer future.
+                    </p>
+                </div>
+
+                <div class="col-lg-2 col-md-6">
+                    <h6 class="fw-bold">Quick Links</h6>
+                    <a href="index.html" class="footer-link d-block">Homepage</a>
+                    <a href="risk-reduction.html" class="footer-link d-block">Risk Reduction</a>
+                    <a href="safety-tips.html" class="footer-link d-block">Safety Tips</a>
+                    <a href="quiz.html" class="footer-link d-block">Quiz</a>
+                    <a href="aboutus.html" class="footer-link d-block">About Us</a>
+                </div>
+
+                <div class="col-lg-2 col-md-6">
+                    <h6 class="fw-bold">Learn More</h6>
+                    <a href="faq.html" class="footer-link d-block">FAQ</a>
+                    <a href="references.html" class="footer-link d-block">References</a>
+                    <a href="contactus.html" class="footer-link d-block">Contact Us</a>
+                    <a href="privacy-policy.html" class="footer-link d-block">Privacy Policy</a>
+                </div>
+
+                <div class="col-lg-5 col-md-6">
+                    <h6 class="fw-bold">Join SlopePoint</h6>
+                    <p class="footer-description">
+                        Sign up to check your score and see your quiz results.
+                    </p>
+                    <button type="button" class="btn sign-up">
+                        Sign Up
+                    </button>
+                </div>
+
+            </div>
+
+            <hr class="footer-line">
+
+            <div class="footer-bottom">
+                <small>Made by Group 5</small>
+                <small> © 2026 SlopePoint | All Rights Reserved.</small>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
