@@ -15,29 +15,28 @@
 <body>
 
     <nav class="navbar navbar-expand-lg sticky-top">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">
-                <img src="https://i.pinimg.com/736x/f9/9e/da/f99eda20acf7c5a0008ba07cc0dadbc3.jpg" alt="SlopePoint Logo" class="logo me-2">
-                SlopePoint
-            </a>
+        <a class="navbar-brand" href="index.html">
+            <img src="https://i.pinimg.com/736x/f9/9e/da/f99eda20acf7c5a0008ba07cc0dadbc3.jpg" alt="SlopePoint Logo" class="logo me-2">
+            SlopePoint
+        </a>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <div class="collapse navbar-collapse" id="navbarMenu">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="risk-reduction.html">Risk Reduction</a></li>
-                    <li class="nav-item"><a class="nav-link" href="safety-tips.html">Safety Tips</a></li>
-                    <li class="nav-item"><a class="nav-link" href="quiz.html">Quiz</a></li>
-                    <li class="nav-item"><a class="nav-link" href="aboutus.html">About Us</a></li>
-                    <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="contactus.html">Contact Us</a></li>
-                </ul>
-            </div>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="risk-reduction.html">Risk Reduction</a></li>
+                <li class="nav-item"><a class="nav-link" href="safety-tips.html">Safety Tips</a></li>
+                <li class="nav-item"><a class="nav-link" href="quiz.html">Quiz</a></li>
+                <li class="nav-item"><a class="nav-link" href="aboutus.html">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+                <li class="nav-item"><a class="nav-link active" href="contactus.html">Contact Us</a></li>
+            </ul>
         </div>
     </nav>
+
 
     <main class="contact-page">
 
@@ -139,21 +138,21 @@
                     </div>
 
                     <div class="contact-field">
-    <label for="subjectSelect">Subject *</label>
-    <select id="subjectSelect" required>
-        <option value="" disabled selected>Select a subject</option>
-        <option value="General Question">General Question</option>
-        <option value="Website Feedback">Website Feedback</option>
-        <option value="Landslide Awareness">Landslide Awareness</option>
-        <option value="Safety Information">Safety Information</option>
-        <option value="Suggestions">Suggestions</option>
-        <option value="Other">Other</option>
-    </select>
-</div>
+                        <label for="subjectSelect">Subject *</label>
+                        <select id="subjectSelect" required>
+                            <option value="" disabled selected>Select a subject</option>
+                            <option value="General Question">General Question</option>
+                            <option value="Website Feedback">Website Feedback</option>
+                            <option value="Landslide Awareness">Landslide Awareness</option>
+                            <option value="Safety Information">Safety Information</option>
+                            <option value="Suggestions">Suggestions</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
 
-<div class="contact-field">
-    <input type="text" id="subject" name="subject" placeholder="Selected subject will appear here" readonly required>
-</div>
+                    <div class="contact-field">
+                        <input type="text" id="subject" name="subject" placeholder="Selected subject will appear here" readonly required>
+                    </div>
 
                     <div class="contact-field">
                         <label for="contactMessage">Message *</label>
@@ -234,6 +233,46 @@
             </div>
         </div>
     </footer>
+
+    <div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content register-modal">
+
+                <div class="modal-header">
+                    <div>
+                        <span class="register-tag">SLOPEPOINT ACCOUNT</span>
+                        <h5 class="modal-title" id="registerModalLabel">Create an Account</h5>
+                    </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body">
+                    <p class="register-description">
+                        Sign up to check your score and see your quiz results.
+                    </p>
+
+                    <form id="registerForm">
+                        <label for="studentName" class="form-label">Full Name</label>
+                        <input type="text" class="form-control register-input mb-3" id="studentName" placeholder="Enter your name" required>
+
+                        <label for="studentEmail" class="form-label">Email Address</label>
+                        <input type="email" class="form-control register-input mb-3" id="studentEmail" placeholder="Enter your email" required>
+
+                        <label for="studentPassword" class="form-label">Password</label>
+                        <input type="password" class="form-control register-input mb-3" id="studentPassword" placeholder="Create a password" required>
+
+                        <label for="confirmPassword" class="form-label">Confirm Password</label>
+                        <input type="password" class="form-control register-input mb-3" id="confirmPassword" placeholder="Confirm your password" required>
+
+                        <p id="registerMessage" class="register-message"></p>
+
+                        <button type="submit" class="btn register-submit w-100">Create Account</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="script.js"></script>
